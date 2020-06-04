@@ -1,0 +1,17 @@
+﻿  블루투스.cpp
+c:\users\user\desktop\블루투스\블루투스.cpp(20): warning C4996: '_WSAQuerySetA::dwSize': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1329): note: '_WSAQuerySetA::dwSize' 선언을 참조하십시오.
+c:\users\user\desktop\블루투스\블루투스.cpp(21): warning C4996: '_WSAQuerySetA::dwNameSpace': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1334): note: '_WSAQuerySetA::dwNameSpace' 선언을 참조하십시오.
+c:\users\user\desktop\블루투스\블루투스.cpp(42): warning C4996: '_WSAQuerySetA::lpcsaBuffer': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1341): note: '_WSAQuerySetA::lpcsaBuffer' 선언을 참조하십시오.
+c:\users\user\desktop\블루투스\블루투스.cpp(49): warning C4996: '_WSAQuerySetA::lpszServiceInstanceName': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1330): note: '_WSAQuerySetA::lpszServiceInstanceName' 선언을 참조하십시오.
+c:\users\user\desktop\블루투스\블루투스.cpp(28): warning C4996: 'WSALookupServiceBeginA': Use WSALookupServiceBeginW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(3693): note: 'WSALookupServiceBeginA' 선언을 참조하십시오.
+c:\users\user\desktop\블루투스\블루투스.cpp(39): warning C4996: 'WSALookupServiceNextA': Use WSALookupServiceNextW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(3752): note: 'WSALookupServiceNextA' 선언을 참조하십시오.
+c:\users\user\desktop\블루투스\블루투스.cpp(47): warning C4996: 'WSAAddressToStringA': Use WSAAddressToStringW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(3556): note: 'WSAAddressToStringA' 선언을 참조하십시오.
+  블루투스.vcxproj -> C:\Users\user\Desktop\블루투스\Debug\블루투스.exe
+  블루투스.vcxproj -> C:\Users\user\Desktop\블루투스\Debug\블루투스.pdb (Full PDB)

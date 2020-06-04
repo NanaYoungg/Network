@@ -1,0 +1,19 @@
+﻿  멀티캐스트 server.cpp
+c:\users\user\desktop\gui 멀티캐스트 server\멀티캐스트 server.cpp(427): warning C4553: '==': 의미 없는 연산자입니다. '='을(를) 사용하려고 했습니까?
+멀티캐스트 server.obj : error LNK2019: __imp__GetStockObject@4 외부 기호(참조 위치: _WinMain@16 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__GetMessageA@16 외부 기호(참조 위치: _WinMain@16 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__TranslateMessage@4 외부 기호(참조 위치: _WinMain@16 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__DispatchMessageA@4 외부 기호(참조 위치: _WinMain@16 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__SendMessageA@16 외부 기호(참조 위치: "void __cdecl DisplayText(char *,...)" (?DisplayText@@YAXPADZZ) 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__DefWindowProcA@16 외부 기호(참조 위치: "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__PostQuitMessage@4 외부 기호(참조 위치: "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__RegisterClassA@4 외부 기호(참조 위치: _WinMain@16 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__CreateWindowExA@48 외부 기호(참조 위치: "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__ShowWindow@8 외부 기호(참조 위치: _WinMain@16 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__MoveWindow@24 외부 기호(참조 위치: "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__SetFocus@4 외부 기호(참조 위치: "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__UpdateWindow@4 외부 기호(참조 위치: _WinMain@16 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__GetWindowTextLengthA@4 외부 기호(참조 위치: "void __cdecl DisplayText(char *,...)" (?DisplayText@@YAXPADZZ) 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__LoadCursorA@8 외부 기호(참조 위치: _WinMain@16 함수)에서 확인하지 못했습니다.
+멀티캐스트 server.obj : error LNK2019: __imp__LoadIconA@8 외부 기호(참조 위치: _WinMain@16 함수)에서 확인하지 못했습니다.
+C:\Users\user\Desktop\GUI 멀티캐스트 server\Debug\GUI 멀티캐스트 server.exe : fatal error LNK1120: 16개의 확인할 수 없는 외부 참조입니다.

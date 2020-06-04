@@ -1,0 +1,39 @@
+
+
+import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class dfsasds {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//ServerSocket, Socket
+
+		ServerSocket serverSocket = null;
+
+		try {
+			serverSocket = new ServerSocket(); //포트번호 넣어서 생성
+			serverSocket.bind(new InetSocketAddress("127.0.0.1",9000));
+			while(true) {//통신준비
+				System.out.println("연결대기");
+				Socket socket = serverSocket.accept(); //클라이언트에서 connect
+				InetSocketAddress isa=(InetSocketAddress)
+						(socket.getRemoteSocketAddress());
+				System.out.println("연결수락 : "+isa.getHostName()+isa.getPort());
+			}
+
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		if(!serverSocket.isClosed()) {
+			try {
+				serverSocket.close();
+			}catch(IOException e) {
+				e.getMessage();
+			}
+		}			
+
+	}		
+}

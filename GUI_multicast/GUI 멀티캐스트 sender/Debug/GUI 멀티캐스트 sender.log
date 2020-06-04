@@ -1,0 +1,9 @@
+﻿  GUI 멀티캐스트 sender.cpp
+GUI 멀티캐스트 sender.obj : error LNK2019: __imp__SendMessageA@16 외부 기호(참조 위치: "void __cdecl DisplayText(char *,...)" (?DisplayText@@YAXPADZZ) 함수)에서 확인하지 못했습니다.
+GUI 멀티캐스트 sender.obj : error LNK2019: __imp__DialogBoxParamA@20 외부 기호(참조 위치: _WinMain@16 함수)에서 확인하지 못했습니다.
+GUI 멀티캐스트 sender.obj : error LNK2019: __imp__EndDialog@8 외부 기호(참조 위치: "int __stdcall DlgProc(struct HWND__ *,unsigned int,unsigned int,long)" (?DlgProc@@YGHPAUHWND__@@IIJ@Z) 함수)에서 확인하지 못했습니다.
+GUI 멀티캐스트 sender.obj : error LNK2019: __imp__GetDlgItem@8 외부 기호(참조 위치: "int __stdcall DlgProc(struct HWND__ *,unsigned int,unsigned int,long)" (?DlgProc@@YGHPAUHWND__@@IIJ@Z) 함수)에서 확인하지 못했습니다.
+GUI 멀티캐스트 sender.obj : error LNK2019: __imp__GetDlgItemTextA@16 외부 기호(참조 위치: "int __stdcall DlgProc(struct HWND__ *,unsigned int,unsigned int,long)" (?DlgProc@@YGHPAUHWND__@@IIJ@Z) 함수)에서 확인하지 못했습니다.
+GUI 멀티캐스트 sender.obj : error LNK2019: __imp__EnableWindow@8 외부 기호(참조 위치: "unsigned long __stdcall ClientMain(void *)" (?ClientMain@@YGKPAX@Z) 함수)에서 확인하지 못했습니다.
+GUI 멀티캐스트 sender.obj : error LNK2019: __imp__GetWindowTextLengthA@4 외부 기호(참조 위치: "void __cdecl DisplayText(char *,...)" (?DisplayText@@YAXPADZZ) 함수)에서 확인하지 못했습니다.
+C:\Users\user\Desktop\GUI 멀티캐스트 sender\Debug\GUI 멀티캐스트 sender.exe : fatal error LNK1120: 7개의 확인할 수 없는 외부 참조입니다.

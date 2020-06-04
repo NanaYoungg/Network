@@ -1,0 +1,16 @@
+﻿  server.cpp
+c:\users\user\desktop\블루투스 server\server.cpp(79): warning C4996: '_WSAQuerySetA::dwSize': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1329): note: '_WSAQuerySetA::dwSize' 선언을 참조하십시오.
+c:\users\user\desktop\블루투스 server\server.cpp(80): warning C4996: '_WSAQuerySetA::dwNameSpace': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1334): note: '_WSAQuerySetA::dwNameSpace' 선언을 참조하십시오.
+c:\users\user\desktop\블루투스 server\server.cpp(81): warning C4996: '_WSAQuerySetA::lpServiceClassId': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1331): note: '_WSAQuerySetA::lpServiceClassId' 선언을 참조하십시오.
+c:\users\user\desktop\블루투스 server\server.cpp(82): warning C4996: '_WSAQuerySetA::dwNumberOfCsAddrs': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1340): note: '_WSAQuerySetA::dwNumberOfCsAddrs' 선언을 참조하십시오.
+c:\users\user\desktop\블루투스 server\server.cpp(83): warning C4996: '_WSAQuerySetA::lpcsaBuffer': Use WSAQUERYSETW instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1341): note: '_WSAQuerySetA::lpcsaBuffer' 선언을 참조하십시오.
+c:\users\user\desktop\블루투스 server\server.cpp(84): warning C4996: 'WSASetServiceA': Use WSASetServiceW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(4157): note: 'WSASetServiceA' 선언을 참조하십시오.
+c:\users\user\desktop\블루투스 server\server.cpp(129): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char *'입니다.
+  블루투스 server.vcxproj -> C:\Users\user\Desktop\블루투스 server\Debug\블루투스 server.exe
+  블루투스 server.vcxproj -> C:\Users\user\Desktop\블루투스 server\Debug\블루투스 server.pdb (Full PDB)
